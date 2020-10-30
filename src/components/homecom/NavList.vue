@@ -15,7 +15,7 @@
       </el-submenu>
       <el-menu-item index="3" >消息中心</el-menu-item>
       
-        <el-menu-item index="4"><router-link to="/ding">订单管理</router-link></el-menu-item>
+        <el-menu-item index="4" @click="hand"><!-- <router-link to="/ding"> -->订单管理<!-- </router-link> --></el-menu-item><!--第一种方法：router-link最好写在里面-->
       
     </el-menu>
   </div>
@@ -33,6 +33,10 @@ export default {
     methods: {
       handleSelect(key, keyPath) {
         console.log(key, keyPath);
+      },
+      hand() {
+        this.$router.push('/ding');//第二种方法
+
       }
     }
 };
