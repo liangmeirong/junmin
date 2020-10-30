@@ -1,13 +1,13 @@
 <template>
   <div class="">
-  
+  1234455666
   </div>
 </template>
 
 <script>
 
 export default {
-  name: 'Banner',
+  name: 'Ding',
  
 }
 
