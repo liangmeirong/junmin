@@ -14,9 +14,9 @@
         <el-menu-item index="2-3">选项3</el-menu-item>
       </el-submenu>
       <el-menu-item index="3" >消息中心</el-menu-item>
-      <router-link to="/ding">
-      <el-menu-item index="4">订单管理</el-menu-item>
-      </router-link>
+      
+        <el-menu-item index="4"><router-link to="/ding">订单管理</router-link></el-menu-item>
+      
     </el-menu>
   </div>
 </template>
